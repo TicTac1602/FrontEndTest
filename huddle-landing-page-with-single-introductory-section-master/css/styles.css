@@ -35,18 +35,18 @@ body{
 .text h2 {
 	font-family: 'Open Sans', sans-serif ;
 	font-weight: 400;
-	font-size: 21px;
+	font-size: 16px;
 	margin-top: 25px;
 }
-.round{
-	background-color: white;
-	border-radius: 25px;
-	min-width: 150px;
-	min-height: 50px;
-	text-align: center;
-	
+.round {
+	border:none;
+	padding: 0 3px 5px 3px;
+	border-radius:25px;
+	background:white;
+	width: 15vh;
+	font: bold 24px 'Open Sans';
 }
 .round a{
 	text-decoration: none;
-	color: hsl(257, 40%, 49%);
+	color:hsl(257, 40%, 49%);
 }
