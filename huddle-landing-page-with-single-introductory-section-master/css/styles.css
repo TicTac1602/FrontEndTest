@@ -3,33 +3,35 @@
 
 
 body{
-	margin: 0 auto;
+	margin: 0;
+	position: relative;
 	background-color: hsl(257, 40%, 49%);
 	background-image: url("../images/bg-desktop.svg");
 }
 .tittle{
-	margin: 70px;
-	
+	margin: 70px;	
 }
 .main-container{
-	margin: 0px 70px;
+	margin: 0 70px 100px 70px;
 	display: flex;
 	justify-content: space-between;	
+	
 }
 .mock{
 	margin: 0;
+	width: 45%;
 }
 .text{	
 	display: flex;
 	flex-direction: column;
 	color: white;
-	width: 80vh;
+	width: 45%;
 }
 .text h1 {
 	font-family: 'Poppins', sans-serif ;
 	font-weight: 400, 700;
 	font-size: 40px;
-	margin-top: 40px;
+	margin-top: 25px;
 	margin-bottom: 0;
 }
 .text h2 {
@@ -40,6 +42,7 @@ body{
 }
 .round {
 	border:none;
+	margin-top: 10px;
 	padding: 0 3px 5px 3px;
 	border-radius:25px;
 	background:white;
@@ -49,4 +52,27 @@ body{
 .round a{
 	text-decoration: none;
 	color:hsl(257, 40%, 49%);
+}
+
+
+.social{
+	display: flex;
+	justify-content: space-between;
+	width: 10vh;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;	
+}
+.circle{
+	width: 25px;
+	height: 25px;
+	border: 1px solid white;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.white-circle{
+	color: white;
 }
